@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+    
+    <title>POD OF CAST - HTML, CSS FULL PROJECT</title>
+</head>
+<body>
+    
+    <header>
+        <nav class="navbar container">
+            <div class="nav__menu">
+                <a href="#" class="logo">
+                    <img src="images/logo.png" alt="">
+                </a>
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">Episodes</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">App</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="button__group">
+                    <a href="#" class="btn menu__btn-1">
+                        Recent Episodes
+                    </a>
+                    <a href="#" class="btn menu__btn-2">
+                        Subscribe
+                    </a>
+
+                <!--====== Mobile Menu Icon ======-->
+                <div id="menu-icon" class='menu__icon'>
+                    <img src="images/menu-icon.svg" alt="">
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero__section">
+            <div class="container hero__container">
+                <div class="hero__data">
+                    <h1 class="hero__title section__title">
+                        Your Daily <br><span>Podcast</span>
+                    </h1>
+                    <p class="hero__subtitle section__subtitle">
+                        We cover all kinds of categories and a weekly special guest.
+                    </p>
+                    <a href="#" class="btn cta__btn">Subscribe</a>
+                </div>
+            </div>
+
+            <!-- Slide One -->
+            <div class="swiper episode__slide container">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <img src="images/cover-1.png" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/cover-2.png" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/cover-3.png" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/cover-4.png" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/cover-5.png" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/cover-6.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+              <!-- Platform  -->
+              <div class="platform container">
+                <h2 class="platform__title">Supported by:</h2>
+                <div class="platform__logo-box">
+                    <div class="platform__logo">
+                        <a href="#"><img src="images/Spotify.png" alt=""></a>
+                    </div>
+                    <div class="platform__logo">
+                        <a href="#"><img src="images/Google Podcast.png" alt=""></a>
+                    </div>
+                    <div class="platform__logo">
+                        <a href="#"><img src="images/Youtube.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="scroll">
+                <svg width="150" height="152" viewBox="0 0 150 152" fill="none">
+                    <g id="scroll-scribble">
+                    <path class="path" id="path" d="M54 1.50977C54.0002 119.442 82.6905 84.7264 86.822 76.8797C122.305 9.49012 42.4671 46.7317 56.6612 150.476" stroke="black" stroke-width="2.5" stroke-linecap="round"/>
+                    </g>
+                </svg>
+            </div>
+        </section>
+
+       
+
+         <!--======= About Section ==========-->
+         <section class="about__section">
+            <div class="about__container container">
+                <h2 class="section__title about__title">Talk. Listen. Get inspired <br>by every minute of it.</h2>
+                <div class="about__data">
+                    <div class="about__card">
+                        <img src="images/2.png" alt="">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices odio. 
+                        </p>
+                    </div>
+                    <div class="about__card">
+                        <img src="images/1.png" alt="">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices odio. 
+                        </p>
+                    </div>
+                </div>
+                <div class="quote">
+                    <img src="images/quote__mark.svg" alt="">
+                    <h2 class="quote__text">
+                        One of the best daily podcasts that <br> covers every topic on Spotify.
+                    </h2>
+                    <div class="quote__author-details">
+                        <img class="quote__author" src="./images/avatar.png" alt="">
+                        <small>John Smith,</small>
+                        <div class="author__company">
+                            <img class="author__company" src="./images/spotify-logo.svg" alt="">
+                        <small>Social Community Manager</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+          <!--====== Testimonials Section ========-->
+        <section class="testimonial__section">
+            <div class="container">
+                <div class="title__section testimonial__title-section">
+                    <h2 class="section__title testimonial__title">
+                        What our listeners say
+                    </h2>
+                    <p class="section__subtitle testimonial__subtitle">
+                        Their experience throughout every platform
+                    </p>
+                </div>
+                <div class="swiper testimonial">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                      <!-- Slides -->
+                      <div class="swiper-slide">
+                        <div class="testimonial__card">
+                            <div class="quote__img">
+                                <img src="images/quote__mark.svg" alt="">
+                            </div>
+                            <p class="testimonial__description">
+                                Pod of Cast is a game-changer for podcast lovers! With its amazing selection and engaging hosts, it's the perfect platform for discovering top-quality content.
+                            </p>
+                            
+                            <div class="customer__data">
+                                <img class="customer__img" src="images/avatar.png" alt="">
+                                <small class="customer__name">Luna lovegood,
+                                </small>
+                                <a href="#">
+                                    <img src="images/Spotify.svg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="testimonial__card">
+                            <div class="quote__img">
+                                <img src="images/quote__mark.svg" alt="">
+                            </div>
+                            <p class="testimonial__description">
+                                I'm addicted to Pod of Cast! The diverse selection of podcasts and the top-notch hosting keep me hooked. Highly recommend for all podcast lovers.
+                            </p>
+                            
+                            <div class="customer__data">
+                                <img class="customer__img" src="images/avatar.png" alt="">
+                                <small class="customer__name">Luna lovegood,</small>
+                                <a href="#"><img src="images/Google Podcast.svg" alt=""></a>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="testimonial__card">
+                            <div class="quote__img">
+                                <img src="images/quote__mark.svg" alt="">
+                            </div>
+                            <p class="testimonial__description">
+                                I've been blown away by the quality of podcasts on Pod of Cast! The hosts are experts in their fields and the content is always fascinating. A must-listen for all!
+                            </p>
+                            
+                            <div class="customer__data">
+                                <img class="customer__img" src="images/avatar.png" alt="">
+                                <small class="customer__name">Luna lovegood,</small>
+                                <a href="#"><img src="images/Youtube.svg" alt=""></a>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                  
+                    <!-- swiper-pagination -->
+                    <div class="swiper-pagination"></div>
+                </div> 
+            </div>
+        </section>
+
+          <!--======== Membership benefits ========-->
+          <Section>
+            <div class="membership__section container">
+                <div class="membership__title-section title__section">
+                    <h2 class="membership__title section__title">Membership benefits</h2>
+                    <p class="membership__subtitle section__subtitle">Become our sponsor and get all benefits</p>
+                </div>
+
+                <!-- Benifits Box -->
+                <div class="benefits__box">
+                    <div class="benefits__card">
+                        <img src="images/Scribble.svg" alt="">
+                        <h3>Topic by Request</h3>
+                        <p>Lorem ipsum dolor sit amet consectet pis
+                            cing elit, sed do eiusmod tempor.</p>
+                    </div>
+                    <div class="benefits__card">
+                        <img src="images/Shining stars.svg" alt="">
+                        <h3>Exclusive Content</h3>
+                        <p>Lorem ipsum dolor sit amet consectet pis
+                            cing elit, sed do eiusmod tempor.</p>
+                    </div>
+                    <div class="benefits__card">
+                        <img src="images/Face 1.svg" alt="">
+                        <h3>Join the Community</h3>
+                        <p>Lorem ipsum dolor sit amet consectet pis
+                            cing elit, sed do eiusmod tempor.</p>
+                    </div>
+                    <div class="benefits__card">
+                        <img src="images/Face 5.svg" alt="">
+                        <h3>Livestreaming Access</h3>
+                        <p>Lorem ipsum dolor sit amet consectet pis
+                            cing elit, sed do eiusmod tempor.</p>
+                    </div>
+                    <div class="benefits__card">
+                        <img src="images/Fire.svg" alt="">
+                        <h3>Exclusive Episodes & Merch</h3>
+                        <p>Lorem ipsum dolor sit amet consectet pis
+                            cing elit, sed do eiusmod tempor.</p>
+                    </div>
+                    <div class="benefits__card">
+                        <img src="images/star_2.svg" alt="">
+                        <h3>And much more!</h3>
+                        <p>Lorem ipsum dolor sit amet consectet pis
+                            cing elit, sed do eiusmod tempor.</p>
+                    </div>
+                </div>
+                <button class="btn cta__btn benefits__button">See Pricing</button>
+            </div>
+        </Section>
+
+         <!--========= Recent Episode Card =========-->
+         <section class="recent__episode__section">
+            <div class="container recent__episode-container">
+                <div class="title__section">
+                    <h3 class="section__title episode__title">Recent Episodes</h3>
+                    <p class="section__subtitle episode__subtitle">Available on your favorite platform</p>
+                </div>
+                <div class="recent__episode-box">
+                    <!-- Card One -->
+                    <div class="recent__episode-card">
+                        <div class="episode__card__body">
+                            <div class="card__img">
+                                <img src="images/cover-1.png" alt="">
+                            </div>
+                            <div class="episode__description">
+                                <small>Eps.6</small>
+                                <h3>Pandemic Becoming Endemic</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices odio.</p>
+                            </div>
+                        </div>
+                        <div class="card__footer">
+                            <div class="card__tag">
+                                <small class="tag">covid-19</small>
+                                <small class="tag">health</small>
+                            </div>
+                            <div class="hosted">
+                                <small>Hosted By:</small>
+                                <img src="images/avatar.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+    
+                     <!-- Card Two -->
+                    <div class="recent__episode-card">
+                        <div class="episode__card__body">
+                            <div class="card__img">
+                                <img src="images/cover-2.png" alt="">
+                            </div>
+                            <div class="episode__description">
+                                <small>Eps.5</small>
+                                <h3>Tesla Autopilot Controversy</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices odio.</p>
+                            </div>
+                        </div>
+                        <div class="card__footer">
+                            <div class="card__tag">
+                                <small class="tag">automation</small>
+                                <small class="tag">tech</small>
+                            </div>
+                            <div class="hosted">
+                                <small>Hosted By:</small>
+                                <img src="images/avatar.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+    
+                     <!-- Card Three -->
+                     <div class="recent__episode-card">
+                        <div class="episode__card__body">
+                            <div class="card__img">
+                                <img src="images/cover-3.png" alt="">
+                            </div>
+                            <div class="episode__description">
+                                <small>Eps.4</small>
+                                <h3>Women's Rights? Is it alright?</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices odio.</p>
+                            </div>
+                        </div>
+                        <div class="card__footer">
+                            <div class="card__tag">
+                                <small class="tag">women’s rights</small>
+                                <small class="tag">right</small>
+                            </div>
+                            <div class="hosted">
+                                <small>Hosted By:</small>
+                                <img src="images/avatar.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+    
+                     <!-- Card Four -->
+                     <div class="recent__episode-card">
+                        <div class="episode__card__body">
+                            <div class="card__img">
+                                <img src="images/cover-4.png" alt="">
+                            </div>
+                            <div class="episode__description">
+                                <small>Eps.3</small>
+                                <h3>How to Deal with Self–Confidence</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices odio.</p>
+                            </div>
+                        </div>
+                        <div class="card__footer">
+                            <div class="card__tag">
+                                <small class="tag">self-esteem</small>
+                                <small class="tag">health</small>
+                            </div>
+                            <div class="hosted">
+                                <small>Hosted By:</small>
+                                <img src="images/avatar.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+    
+                     <!-- Card Five -->
+                     <div class="recent__episode-card">
+                        <div class="episode__card__body">
+                            <div class="card__img">
+                                <img src="images/cover-5.png" alt="">
+                            </div>
+                            <div class="episode__description">
+                                <small>Eps.2</small>
+                                <h3>Type of Social Classes of People</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices odio.</p>
+                            </div>
+                        </div>
+                        <div class="card__footer">
+                            <div class="card__tag">
+                                <small class="tag">social class</small>
+                                <small class="tag">wealth</small>
+                            </div>
+                            <div class="hosted">
+                                <small>Hosted By:</small>
+                                <img src="images/avatar.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+    
+                     <!-- Card Six -->
+                     <div class="recent__episode-card">
+                        <div class="episode__card__body">
+                            <div class="card__img">
+                                <img src="images/cover-6.png" alt="">
+                            </div>
+                            <div class="episode__description">
+                                <small>Eps.1</small>
+                                <h3>Are you a Perplexed Mind Person?</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices odio.</p>
+                            </div>
+                        </div>
+                        <div class="card__footer">
+                            <div class="card__tag">
+                                <small class="tag">mind-behaviour</small>
+                                <small class="tag">health</small>
+                            </div>
+                            <div class="hosted">
+                                <small>Hosted By:</small>
+                                <img src="images/avatar.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="btn cta__btn episode__btn">Browse Episodes</button>
+            </div>
+        </section>
+
+        <!-- Pricing Section -->
+        <section class="pricing__section">
+            <div class="container">
+                <div class="pricing__title-section title__section">
+                    <h1 class="pricing__title section__title">Become our sponsor</h1>
+                    <p class="pricing__subtitle section__subtitle">
+                        Get exclusive episodes, merch and more
+                    </p>
+                </div>
+                <!-- Pricing Card -->
+                <div class="pricing__card">
+                    <!-- Pricing Card Body -->
+                    <div class="pricing__card-body">
+                        <h3>Member</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectet
+                            cing elit, sed do eiusmod tempor.
+                        </p>
+                        <div class="pricing__card-footer">
+                            <a href="#">What’s included?</a>
+                            <div class="price">
+                                <p>$9.99</p>
+                                <small>/month</small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pricing__card-body">
+                        <h3>Family</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectet
+                            cing elit, sed do eiusmod tempor.
+                        </p>
+                        <div class="pricing__card-footer">
+                            <a href="#">What’s included?</a>
+                            <div class="price">
+                                <p>$9.99</p>
+                                <small>/month</small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pricing__card-body">
+                        <h3>Official</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectet
+                            cing elit, sed do eiusmod tempor.
+                        </p>
+                        <div class="pricing__card-footer">
+                            <a href="#">What’s included?</a>
+                            <div class="price">
+                                <p>$9.99</p>
+                                <small>/month</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+          <!--======= Article And News =======-->
+          <section class="article__section">
+            <div class="container article__container">
+                <div class="article__title-section title__section">
+                    <h1 class="article__section-title section__title">Article and News</h1>
+                    <p class="article__section-subtitle  section__subtitle">News, tips, tricks and more</p>
+                </div>
+                <div class="article__box">
+                    <div class="article__card">
+                        <div class="article__card-body">
+                            <img src="./images/article-1.png" alt="">
+                            <div class="article__description">
+                                <span>PODCAST</span>
+                                <h3>Setup your own podcast</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minimvel iam, quis nostrud exercitation ullamco laboris</p>
+                            </div>
+                            <div class="article__footer">
+                                <div class="article__tag">
+                                    <small class="tag">business</small>
+                                    <small class="tag">startup</small>
+                                </div>
+                                <div class="article__date">
+                                    <small>Sep 14, 2023</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="article__card">
+                        <div class="article__card-body">
+                            <img src="./images/article-1.png" alt="">
+                            <div class="article__description">
+                                <span>PODCAST</span>
+                                <h3>Setup your own podcast</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minimvel iam, quis nostrud exercitation ullamco laboris</p>
+                            </div>
+                            <div class="article__footer">
+                                <div class="article__tag">
+                                    <small class="tag">business</small>
+                                    <small class="tag">startup</small>
+                                </div>
+                                <div class="article__date">
+                                    <small>Sep 14, 2021</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="btn article__btn cta__btn">Browse All</button>
+            </div>
+        </section>
+
+        <!--======= Download App =======-->
+        <section class="download__app">
+            <div class="download__app-container container">
+                <div class="title__section download__title-section">
+                    <small>BETA</small>
+                    <h1 class="section__title download__section-title">Available now <br>Pod of Cast App
+                    </h1>
+                    <p class="section__subtitle download__section-subtitle">
+                        We just launched our podcast app!
+                    </p>
+                </div>
+                <div class="download__option">
+                    <button class="btn cta__btn download__btn">Download Now</button>
+                    <small>Content also available on:</small>
+                    <div class="logo__box">
+                        <img src="images/google-podcast-logo.png" alt="">
+                        <img src="images/spotify-logo.png" alt="">
+                        <img src="images/youtube-logo.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <section class="footer__section">
+            <div class="container ">
+
+                <div class="footer__container">
+                    <!-- Footer Box -->
+                    <div class="footer__box">
+                        <img src="./images/logo.png" alt="">
+                        <small>
+                            Lorem ipsum dolor sit amet, <br>consectetur adipiscing elit.
+                        </small>
+                        <div class="social">
+                            <img src="./images/facebook.svg" alt="">
+                            <img src="./images/twitter.svg" alt="">
+                            <img src="./images/tiktok.svg" alt="">
+                        </div>
+                    </div>
+
+                    <!-- Footer Box -->
+                    <div class="footer__box">
+                        <a href="#" class="footer__menu">About</a>
+                        <a href="#" class="footer__menu">Testimonials</a>
+                        <a href="#" class="footer__menu">Features</a>
+                    </div>
+
+                    <!-- Footer Box -->
+                    <div class="footer__box">
+                        <a href="#" class="footer__menu">Episodes</a>
+                        <a href="#" class="footer__menu">Pricing</a>
+                        <a href="#" class="footer__menu">Blog</a>
+                    </div>
+
+                    <!-- Footer Box -->
+                    <div class="footer__box">
+                        <small>
+                            Listen to episodes on your fav platform:
+                        </small>
+                        <div class="platform__img">
+                            <img src="images/Google Podcast.svg" alt="">
+                            <img src="images/Spotify.svg" alt="">
+                            <img src="images/Youtube.svg" alt="">
+                        </div>
+                        <div class="social">
+                            <small>App available on:</small>
+                            <img src="./images/google_play.svg" alt="">
+                            <img src="./images/app_store.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="copy__right">
+                    <div class="copy__right-text">
+                        <small>&copy; 2023. All Rights Reserved. <span>Digital Shifu</span></small>
+                    </div>
+                    <div class="terms__condition">
+                        <ul>
+                            <li><a href="#">Terms</a></li>
+                            <li><a href="#">Privacy</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
